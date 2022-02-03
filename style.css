@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet Ms", Helvetica, sans-serif;
+}
+
+/* Header */
+#header {
+    background-color: rgb(18, 0, 68);
+    padding: 15px;
+    text-align: center;
+    
+
+
+}
+
+#amarelo {
+    color: yellow;
+}
+
+#logo,
+#menu {
+    padding: 15px;
+    font-weight: bold;
+}
+
+#logo {
+    color: white;
+    font-size: 2.5em;
+}
+a {
+    text-decoration: none;
+    padding: 10px
+}
+#header a:link,
+:visited {
+    
+    color: white;
+    padding: 8px 12px;
+    font-weight: bold;
+}
+#header a:hover {
+    color: rgb(18, 0, 68);
+    background: white;
+}
+/* Header */
+#conteudos {
+    padding-top: 20px;
+    width: 920px;
+    background: #fff;
+    margin: 0px auto;
+}
+.textos {
+    padding: 20px;
+}
+#content {
+    width: 660px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+
+}
+.sidebar {
+    width: 240px;
+    color: black;
+    float: right;
+    display: flex;
+    flex-direction:column;
+    font-weight: bold;
+    margin:0px;
+    padding:0px
+}
+
+#footer {
+    background: rgb(255, 255, 255);
+    clear: both;
+    text-align: center;
+    padding:10px;
+
+}
+.postagem {
+    margin-bottom: 20px;
+}
+
+.datas {
+
+    font-size: 0.8em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin: bottom 10px;
+    display: block;   
+}
+
+.titulos {
+    color: rgb(18, 0, 68);
+
+}
+
+.links-categorias:a {
+    color: black;
+
+}
+
+.sidebar a:hover{
+    color:  rgb(18, 0, 68);
+    font-size: large;
+    font-weight: bold;
+}
+.sidebar a{
+    color:black;
+}
+.postagem a{
+    text-decoration: underline;
+    color : black;
+    
+}
+.postagem a:hover{
+    text-decoration: underline;
+    color : black;
+}
+#side{
+    padding-bottom: 20px;
+}
+h1{
+    font-size:2.5em;
+    margin: 10px;
+}
+h2{
+    color:#120044;
+}
+h3{ 
+    color:#565656;
+    
+}
+p{
+    padding-top:0px 10px 0px 10px;
+}
+.images{
+    height: 425px;
+    width:640px;
+}
